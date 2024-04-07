@@ -1,0 +1,31 @@
+<ons-page>
+    <ons-toolbar>
+      <div class="center">Settings</div>
+    </ons-toolbar>
+   
+    <form id="setting-form">
+      <div class="form-container">
+        <p><ons-input id="name" placeholder="Enter your name" required></ons-input></p>
+        <p><ons-input id="email" placeholder="Enter your email" required></ons-input></p>
+        <p>
+          <ons-checkbox input-id="checkbox1" name="checkbox"></ons-checkbox>
+          <label for="checkbox1">Checkbox 1</label>
+        </p>
+        <p>
+          <ons-radio input-id="radio1" name="radio"></ons-radio>
+          <label for="radio1">Radio 1</label>
+        </p>
+        <p>
+          <ons-select>
+            <option value="option1">Option 1</option>
+            <option value="option2">Option 2</option>
+            <option value="option3">Option 3</option>
+          </ons-select>
+        </p>
+        <p><ons-button modifier="large my-button-modifier" onclick="submitForm()">Submit</ons-button></p>
+      </div>
+    </form>
+    <div id="success"></div>
+  </ons-page>
+  
+  

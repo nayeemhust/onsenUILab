@@ -1,0 +1,14 @@
+.about-back-buttons {
+    background-color: rgb(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    padding: 10px;
+}
+.large my-button-modifier {
+    color:yellow;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
